@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE26D00B1E48D409005E120D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE26D00A1E48D409005E120D /* main.cpp */; };
+		FE26D0141E48D66A005E120D /* IntNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE26D0121E48D66A005E120D /* IntNode.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,8 @@
 
 /* Begin PBXFileReference section */
 		FE26D0071E48D409005E120D /* MegaProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MegaProject; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE26D00A1E48D409005E120D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FE26D0121E48D66A005E120D /* IntNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntNode.cpp; sourceTree = "<group>"; };
+		FE26D0131E48D66A005E120D /* IntNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IntNode.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		FE26CFFE1E48D409005E120D = {
 			isa = PBXGroup;
 			children = (
+				FE26D0111E48D656005E120D /* Model */,
 				FE26D0091E48D409005E120D /* MegaProject */,
 				FE26D0081E48D409005E120D /* Products */,
 			);
@@ -57,9 +59,17 @@
 		FE26D0091E48D409005E120D /* MegaProject */ = {
 			isa = PBXGroup;
 			children = (
-				FE26D00A1E48D409005E120D /* main.cpp */,
 			);
 			path = MegaProject;
+			sourceTree = "<group>";
+		};
+		FE26D0111E48D656005E120D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE26D0121E48D66A005E120D /* IntNode.cpp */,
+				FE26D0131E48D66A005E120D /* IntNode.hpp */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE26D00B1E48D409005E120D /* main.cpp in Sources */,
+				FE26D0141E48D66A005E120D /* IntNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
