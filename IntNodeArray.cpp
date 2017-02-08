@@ -7,3 +7,18 @@
 //
 
 #include "IntNodeArray.hpp"
+
+#include <assert.h>
+
+IntNodeArray :: IntNodeArray(int size)
+{
+    assert(size > 0);
+    this->size = size;
+    
+    this->head = new IntNode();
+    
+    for(int index = 0; index < size; index++)
+    {
+        IntNode * currentNode = new IntNode
+    }
+}
