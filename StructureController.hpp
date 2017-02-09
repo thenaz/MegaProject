@@ -9,6 +9,14 @@
 #ifndef StructureController_hpp
 #define StructureController_hpp
 
-#include <stdio.h>
+class StructureController
+{
+private:
+    void testIntArray();
+public:
+    StructureController();
+    void start();
+};
+
 
 #endif /* StructureController_hpp */
