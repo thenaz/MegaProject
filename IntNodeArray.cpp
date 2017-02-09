@@ -19,6 +19,17 @@ IntNodeArray :: IntNodeArray(int size)
     
     for(int index = 0; index < size; index++)
     {
-        IntNode * currentNode = new IntNode
+        IntNode * currentNode = new IntNode();
+        currentNode->setNodePointer(head);
+        head = currentNode;
     }
+}
+
+int IntNodeArray :: getFromIndex(int index)
+{
+    int value = 0;
+    
+    
+    
+    return value;
 }

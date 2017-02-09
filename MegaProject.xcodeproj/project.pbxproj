@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		FE26D0141E48D66A005E120D /* IntNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE26D0121E48D66A005E120D /* IntNode.cpp */; };
 		FE5F52FE1E4B730200C80194 /* IntNodeArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5F52FC1E4B730200C80194 /* IntNodeArray.cpp */; };
+		FEED0B151E4CBCE9008257AB /* StructureController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEED0B131E4CBCE9008257AB /* StructureController.cpp */; };
+		FEED0B171E4CBD04008257AB /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEED0B161E4CBD04008257AB /* Runner.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,9 @@
 		FE26D0131E48D66A005E120D /* IntNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IntNode.hpp; sourceTree = "<group>"; };
 		FE5F52FC1E4B730200C80194 /* IntNodeArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntNodeArray.cpp; sourceTree = "<group>"; };
 		FE5F52FD1E4B730200C80194 /* IntNodeArray.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IntNodeArray.hpp; sourceTree = "<group>"; };
+		FEED0B131E4CBCE9008257AB /* StructureController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StructureController.cpp; sourceTree = "<group>"; };
+		FEED0B141E4CBCE9008257AB /* StructureController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = StructureController.hpp; sourceTree = "<group>"; };
+		FEED0B161E4CBD04008257AB /* Runner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +50,7 @@
 		FE26CFFE1E48D409005E120D = {
 			isa = PBXGroup;
 			children = (
+				FEED0B121E4CBCCD008257AB /* Controller */,
 				FE26D0111E48D656005E120D /* Model */,
 				FE26D0091E48D409005E120D /* MegaProject */,
 				FE26D0081E48D409005E120D /* Products */,
@@ -75,6 +81,16 @@
 				FE5F52FD1E4B730200C80194 /* IntNodeArray.hpp */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		FEED0B121E4CBCCD008257AB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FEED0B131E4CBCE9008257AB /* StructureController.cpp */,
+				FEED0B141E4CBCE9008257AB /* StructureController.hpp */,
+				FEED0B161E4CBD04008257AB /* Runner.cpp */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +151,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE26D0141E48D66A005E120D /* IntNode.cpp in Sources */,
+				FEED0B171E4CBD04008257AB /* Runner.cpp in Sources */,
+				FEED0B151E4CBCE9008257AB /* StructureController.cpp in Sources */,
 				FE5F52FE1E4B730200C80194 /* IntNodeArray.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
