@@ -26,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FE06EA521E520A9A00322528 /* Node.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
 		FE26D0071E48D409005E120D /* MegaProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MegaProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE26D0121E48D66A005E120D /* IntNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntNode.cpp; sourceTree = "<group>"; };
 		FE26D0131E48D66A005E120D /* IntNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IntNode.hpp; sourceTree = "<group>"; };
@@ -79,6 +80,7 @@
 				FE26D0131E48D66A005E120D /* IntNode.hpp */,
 				FE5F52FC1E4B730200C80194 /* IntNodeArray.cpp */,
 				FE5F52FD1E4B730200C80194 /* IntNodeArray.hpp */,
+				FE06EA521E520A9A00322528 /* Node.hpp */,
 			);
 			name = Model;
 			sourceTree = "<group>";
