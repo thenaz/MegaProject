@@ -28,6 +28,17 @@ public:
 //Implementation Section
 
 template <class Type>
+Array<Type> :: Array()
+{
+    //DO NOT USE!!!!!!
+    //Implemented only for compilation purposes
+}
+
+/*
+ Creates an Array of specified size by linking Node<Type> together
+ */
+
+template <class Type>
 Array<Type> :: Array(int size)
 {
     assert(size > 0);
