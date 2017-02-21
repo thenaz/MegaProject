@@ -3,7 +3,7 @@
 //  MegaProject
 //
 //  Created by Nazir, Ammar on 2/15/17.
-//  Copyright © 2017 Nazir, Ammar. All rights reserved.
+//  Copyright © 2017 Nazir, Ammar. All dem rights is reserved boy.
 //
 
 #ifndef Array_hpp
