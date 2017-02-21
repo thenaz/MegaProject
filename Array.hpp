@@ -11,6 +11,7 @@
 
 #include <assert.h>
 #include "Node.hpp"
+#include <iostream>
 
 using namespace std;
 
