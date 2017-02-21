@@ -12,6 +12,8 @@
 #include <assert.h>
 #include "Node.hpp"
 
+using namespace std;
+
 template <class Type>
 class Array
 {
@@ -19,6 +21,7 @@ private:
     Node<Type> * front;
     int size;
 public:
+    //Constructors
     Array<Type>(int size);
     int getSize();
     Type getFromIndex(int index);
