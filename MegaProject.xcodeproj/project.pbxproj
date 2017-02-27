@@ -27,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		FE06EA521E520A9A00322528 /* Node.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
+		FE13C6D81E648E33007D492A /* BiDirectionalNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BiDirectionalNode.hpp; sourceTree = "<group>"; };
 		FE17E2841E54AE22005BCA75 /* Array.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		FE26D0071E48D409005E120D /* MegaProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MegaProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE26D0121E48D66A005E120D /* IntNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntNode.cpp; sourceTree = "<group>"; };
@@ -81,6 +82,7 @@
 				FE26D0121E48D66A005E120D /* IntNode.cpp */,
 				FE26D0131E48D66A005E120D /* IntNode.hpp */,
 				FE671B5D1E5CA3AF004A20B2 /* List.hpp */,
+				FE13C6D81E648E33007D492A /* BiDirectionalNode.hpp */,
 				FE17E2841E54AE22005BCA75 /* Array.hpp */,
 				FE5F52FC1E4B730200C80194 /* IntNodeArray.cpp */,
 				FE5F52FD1E4B730200C80194 /* IntNodeArray.hpp */,
