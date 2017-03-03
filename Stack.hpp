@@ -49,7 +49,6 @@ void Stack<Type> :: push(Type addedThing)
     if(this->size == 0 || this->front == nullptr || this->end == nullptr)
     {
         this->front = addToStack;
-        this->end = addToStack;
     }
     else
     {

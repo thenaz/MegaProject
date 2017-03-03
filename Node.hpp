@@ -13,16 +13,16 @@ class Node
 {
 private:
     Type nodeData;
-    Node<Type>* nodePointer;
+    Node<Type>* nextPointer;
 public:
     Node<Type>();
     Node<Type>(Type data);
     Node<Type>(Type data, Node<Type> * nextPointer);
     
     Type getNodeData();
-    Node<Type> * getNodePointer();
+    Node<Type> * getnextPointer();
     void setNodeData(Type value);
-    void setNodePointer(Node<Type> * nextPointer);
+    void getnextPointer(Node<Type> * nextPointer);
 };
 
 #endif /* Node_hpp */

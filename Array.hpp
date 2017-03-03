@@ -53,7 +53,7 @@ Array<Type> :: Array(int size)
     for(int index = 1; index < size; index++)
     {
         Node<Type> * currentNode = new Node <Type>();
-        currentNode->setNodePointer(front);
+        currentNode->getnextPointer(front);
         front = currentNode;
     }
 }
@@ -69,7 +69,7 @@ Type Array<Type> :: getFromIndex(int index)
     
     for(int position = 0; position < index; position++)
     {
-        current = current->getNodePointer();
+        current = current->getnextPointer();
         
     }
     
@@ -84,7 +84,7 @@ void Array<Type> :: setAtIndex(int index, Type value)
     Node<Type> * current = front;
     for(int position = 0; position < index; position++)
     {
-        current = current->getNodePointer();
+        current = current->getnextPointer();
     }
     
     current->setNodeData(value);

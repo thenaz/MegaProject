@@ -20,7 +20,7 @@ IntNodeArray :: IntNodeArray(int size)
     for(int index = 0; index < size; index++)
     {
         IntNode * currentNode = new IntNode();
-        currentNode->setNodePointer(head);
+        currentNode->getnextPointer(head);
         head = currentNode;
     }
 }
