@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FE26D0141E48D66A005E120D /* IntNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE26D0121E48D66A005E120D /* IntNode.cpp */; };
 		FE5F52FE1E4B730200C80194 /* IntNodeArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5F52FC1E4B730200C80194 /* IntNodeArray.cpp */; };
+		FEDB71C51E76DAD100E36684 /* Meme.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEDB71C31E76DAD100E36684 /* Meme.cpp */; };
 		FEED0B151E4CBCE9008257AB /* StructureController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEED0B131E4CBCE9008257AB /* StructureController.cpp */; };
 		FEED0B171E4CBD04008257AB /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEED0B161E4CBD04008257AB /* Runner.cpp */; };
 /* End PBXBuildFile section */
@@ -39,6 +40,8 @@
 		FEC107C81E69CB1800466176 /* DoubleList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DoubleList.hpp; sourceTree = "<group>"; };
 		FEC107CB1E69CB2D00466176 /* Stack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
 		FEC107CE1E69CB5400466176 /* CircularList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CircularList.hpp; sourceTree = "<group>"; };
+		FEDB71C31E76DAD100E36684 /* Meme.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Meme.cpp; sourceTree = "<group>"; };
+		FEDB71C41E76DAD100E36684 /* Meme.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Meme.hpp; sourceTree = "<group>"; };
 		FEED0B131E4CBCE9008257AB /* StructureController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StructureController.cpp; sourceTree = "<group>"; };
 		FEED0B141E4CBCE9008257AB /* StructureController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = StructureController.hpp; sourceTree = "<group>"; };
 		FEED0B161E4CBD04008257AB /* Runner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
@@ -92,6 +95,8 @@
 				FE5F52FC1E4B730200C80194 /* IntNodeArray.cpp */,
 				FE5F52FD1E4B730200C80194 /* IntNodeArray.hpp */,
 				FE06EA521E520A9A00322528 /* Node.hpp */,
+				FEDB71C31E76DAD100E36684 /* Meme.cpp */,
+				FEDB71C41E76DAD100E36684 /* Meme.hpp */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -178,6 +183,7 @@
 				FEED0B171E4CBD04008257AB /* Runner.cpp in Sources */,
 				FEED0B151E4CBCE9008257AB /* StructureController.cpp in Sources */,
 				FE5F52FE1E4B730200C80194 /* IntNodeArray.cpp in Sources */,
+				FEDB71C51E76DAD100E36684 /* Meme.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
