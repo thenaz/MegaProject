@@ -38,7 +38,7 @@ CircularList<Type> :: ~CircularList()
     {
         this->setFront(this->getFront()->getNextPointer());
         delete remove;
-        remove = this->getFront();
+        remove = this-> getFront();
     }
 }
 
