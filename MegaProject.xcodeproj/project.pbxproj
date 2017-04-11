@@ -33,6 +33,8 @@
 		FE26D0071E48D409005E120D /* MegaProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MegaProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE26D0121E48D66A005E120D /* IntNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = IntNode.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		FE26D0131E48D66A005E120D /* IntNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 0; path = IntNode.hpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		FE2B6BFF1E9D203C00F9230C /* BinarySearchTreeNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BinarySearchTreeNode.hpp; sourceTree = "<group>"; };
+		FE2B6C041E9D2AD600F9230C /* BinarySearchTree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BinarySearchTree.hpp; sourceTree = "<group>"; };
 		FE5F52FC1E4B730200C80194 /* IntNodeArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = IntNodeArray.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		FE5F52FD1E4B730200C80194 /* IntNodeArray.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IntNodeArray.hpp; sourceTree = "<group>"; };
 		FE671B5D1E5CA3AF004A20B2 /* List.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
@@ -61,6 +63,8 @@
 		FE26CFFE1E48D409005E120D = {
 			isa = PBXGroup;
 			children = (
+				FE2B6C011E9D2AAE00F9230C /* Trees */,
+				FE2B6BFD1E9D201700F9230C /* Nodes */,
 				FEC107C61E69CAEF00466176 /* Inherits From DoublyLinked */,
 				FEED0B121E4CBCCD008257AB /* Controller */,
 				FE26D0111E48D656005E120D /* Model */,
@@ -99,6 +103,22 @@
 				FEDB71C41E76DAD100E36684 /* Meme.hpp */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		FE2B6BFD1E9D201700F9230C /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				FE2B6BFF1E9D203C00F9230C /* BinarySearchTreeNode.hpp */,
+			);
+			name = Nodes;
+			sourceTree = "<group>";
+		};
+		FE2B6C011E9D2AAE00F9230C /* Trees */ = {
+			isa = PBXGroup;
+			children = (
+				FE2B6C041E9D2AD600F9230C /* BinarySearchTree.hpp */,
+			);
+			name = Trees;
 			sourceTree = "<group>";
 		};
 		FEC107C61E69CAEF00466176 /* Inherits From DoublyLinked */ = {
